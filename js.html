@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fibonacci Sequence</title>
+    <script>
+
+        //sets the variable for the starting numbers
+        var var1 = 0;
+		var var2 = 1;
+		var result;
+ 
+		for(var i = 0; i <= 25; i++)
+		{
+            //in this loop the vars take on higher numbers
+			result = var1 + var2;
+			var1 = var2;
+			var2 = result;
+            
+            //console log the result 
+			console.log(result);
+		}
+        
+    </script>
+</head>
+<body>
+
+
+
+</body>
+</html>
